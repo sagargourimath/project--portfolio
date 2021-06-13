@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Sagar Gourimath | Portfolio</title>
+  </head>
+  <body>
+    <header id="home">
+      <div class="logo">
+        <a href="#home"><kbd>&lt;sagargourimath&gt;</kbd></a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#my-work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Sagar Gourimath</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">.NET developer</p>
+      <img src="img/dev-sagar-01.jpg" alt="" class="intro__img" />
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Backend</h3>
+          <p>
+            I mostly work with .NET - familiar with both .NET Framework and .NET
+            Core. For the database, I usually go with SQL Server.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Frontend</h3>
+          <p>
+            On the frontend, I generally work with Vanilla JavaScript, HTML and
+            CSS. I've also recently started exploring ReactJS.
+          </p>
+        </div>
+        <div class="service">
+          <h3>MQ Support</h3>
+          <p>
+            I've also worked with IBM MQ extensively, and have administrative
+            knowledge of IBM MQ.
+          </p>
+        </div>
+      </div>
+      <a href="#my-work" class="btn">see my work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Developer from Namma Bengaluru
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          I'm a software engineer from Bengaluru, India. I started my career
+          back in 2012 as a VoIP (Voice over IP) network support engineer. I'd
+          always been interested in programming, and I got lucky in 2018 when I
+          stumbled upon an opportunity to work with a team of .NET developers.
+        </p>
+        <p>
+          I've been coding ever since, and my interest has only grown with time.
+          I intend to become a full-stack developer.
+        </p>
+      </div>
+
+      <img src="img/dev-sagar-02.jpg" alt="" class="about-me__img" />
+    </section>
+
+    <!-- My work -->
+    <section class="my-work" id="my-work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of some of my major projects
+      </p>
+      <div class="portfolio">
+        <a href="goldenguard.html" class="portfolio__item">
+          <img src="img/portfolio-01.jpg" alt="" class="portfolio__img" />
+          <span class="portfolio__text">GoldenGuard</span>
+        </a>
+        <a href="deploycontroltool.html" class="portfolio__item">
+          <img src="img/portfolio-03.jpg" alt="" class="portfolio__img" />
+          <span class="portfolio__text">Deploy Control Tool</span>
+        </a>
+        <a href="mqmonitoring.html" class="portfolio__item">
+          <img src="img/portfolio-04.jpg" alt="" class="portfolio__img" />
+          <span class="portfolio__text">MQ Dashboard</span>
+        </a>
+        <a href="gogitter.html" class="portfolio__item">
+          <img src="img/portfolio-02.jpg" alt="" class="portfolio__img" />
+          <span class="portfolio__text">Go-Gitter</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:sagar.gourimath@gmail.com" class="footer-link"
+        >sagar.gourimath@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://codepen.io/sagar_gourimath"
+            class="social-list__link"
+            target="_blank"
+            ><i class="fab fa-codepen"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://twitter.com/sagargourimath"
+            class="social-list__link"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/sagargourimath/"
+            class="social-list__link"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://github.com/sagargourimath/"
+            class="social-list__link"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
