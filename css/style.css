@@ -380,11 +380,10 @@ nav {
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .portfolio__item {
-  background: var(--clr-accent);
   overflow: hidden;
   text-decoration: none;
 }
@@ -406,9 +405,11 @@ nav {
 }
 
 .portfolio__text {
+  background: var(--clr-accent);
   color: var(--clr-dark);
   font-weight: var(--fw-bold);
-  z-index: 5000;
+  position: relative;
+  display: block;
 }
 
 /* Footer */
