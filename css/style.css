@@ -249,7 +249,6 @@ nav {
 
 .intro__img {
   box-shadow: var(--bs);
-  max-width: 450px;
 }
 
 @media (min-width: 900px) {
