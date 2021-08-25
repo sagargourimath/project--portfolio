@@ -250,7 +250,6 @@ nav {
 .intro__img {
   box-shadow: var(--bs);
   max-width: 450px;
-  margin: auto;
 }
 
 @media (min-width: 900px) {
